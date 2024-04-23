@@ -7,9 +7,8 @@ let searchDefault = `百度搜索|https://www.baidu.com/s?wd={0}
 搜狗搜索|https://www.sogou.com/web?query={0}
 维基百科|https://zh.wikipedia.org/w/index.php?search={0}
 百度百科|https://baike.baidu.com/search/word?word={0}`
-let menuD`百度搜索|https://www.baidu.com/s?wd={0}
+let menuDefault = `百度搜索|https://www.baidu.com/s?wd={0}
 javct|https://javct.net/search/{0}`
-
 let widthDefault = 640
 
 let l = localStorage
