@@ -2,7 +2,7 @@
   "name": "梦想综合搜索",
   "description": "一款简洁的综合搜索扩展，可自定义右键搜索和搜索按钮。",
   "version": "1.13",
-  "manifest_version": 2,
+  "manifest_version": 2.0，
   "icons": {
     "128": "128.png"
   },
@@ -23,7 +23,7 @@
   "permissions": [
     "contextMenus"
   ],
-  "homepage_url": "https://github.com/ryanker/dream_search",
+  "homepage_url": "https://github.com/shui100/dream_search",
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
