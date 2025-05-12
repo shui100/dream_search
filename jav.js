@@ -14,8 +14,8 @@
 // @grant GM_openInTab
 // @grant GM_xmlhttpRequest
 // @grant GM_setClipboard
-// @downloadURL
-// @updateURL 
+// @downloadURL https://raw.githubusercontent.com/shui100/dream_search/refs/heads/master/jav.js
+// @updateURL https://raw.githubusercontent.com/shui100/dream_search/refs/heads/master/jav.js
 // ==/UserScript==
 /*jshint esversion: 8*/
 (async function () {
