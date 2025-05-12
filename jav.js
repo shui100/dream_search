@@ -166,7 +166,7 @@
             back: "https://javtrailers.com/shorts"
         });
         btnMap.set("avsox无码情报", {url: "https://avsox.click/cn/search/%s", back: "https://avsox.click/cn"});
-        btnMap.set("javdb情报", {url: "https://javdb.com/search?q=%s&f=all"});
+        btnMap.set("javdb情报", {url: "https://javdb457.com/search?q=%s&f=all"});
         btnMap.set("google+jav", {url: "https://www.google.com/search?q=%s%20jav"});
     }
 
@@ -1489,7 +1489,7 @@
         let tokyoHot_sample = "https://my.cdn.tokyo-hot.com/media/samples/%s.mp4";
         //只搜索dvd部分，ppv没一个能看的
         let ave = "https://www.aventertainments.com/search_Products.aspx?languageID=1&keyword=%s";
-        let javdb = "https://javdb.com/search?q=%s&f=all";
+        let javdb = "https://javdb457.com/search?q=%s&f=all";
         //无声视频预览，官网经常没有预览视频或者需要日本ip，所以用盗版网站的自制预览作为替代
         /*url: "https://7mmtv.sx/zh/searchform_search/all/index.html",
             reqMethod: "post",
@@ -2103,7 +2103,7 @@
                             }
                             //javdb
                             else if (/javdb/.test(finalUrl)) {
-                                //搜索结果页 https://javdb.com/search?q=pts-437
+                                //搜索结果页 https://javdb457.com/search?q=pts-437
                                 if (/search/.test(finalUrl)) {
                                     //日本ip会被拒绝，或者响应被限制的提示文本
                                     if (xhr.status === 403 || xhr.responseText.search("prohibited"/*禁止*/) !== -1) {
@@ -2124,7 +2124,7 @@
                                         }
                                     }
                                 }
-                                //详情页 https://javdb.com/v/DYvxa 可见地址中不包含id
+                                //详情页 https://javdb457.com/v/DYvxa 可见地址中不包含id
                                 else if (/\/v\//.test(finalUrl)) {
                                     let reg = /"([^"]+\.(mp4|m3u8))"/i;
                                     let match = xhr.responseText.match(reg);
