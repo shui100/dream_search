@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         搜索那个
+// @name        jav搜索
 // @description  日本影视行业内部搜索工具Pro Max Plus Ultra
 // @author       shopkeeperV
-// @namespace    https://greasyfork.org/zh-CN/users/150069
-// @version      2.1
+// @namespace   
+// @version      2.1.1
 // @match        *://*/*
 // @exclude      *://localhost*/*
 // @exclude      *://192.168*/*
@@ -14,8 +14,8 @@
 // @grant GM_openInTab
 // @grant GM_xmlhttpRequest
 // @grant GM_setClipboard
-// @downloadURL https://update.sleazyfork.org/scripts/470138/%E6%90%9C%E7%B4%A2%E9%82%A3%E4%B8%AA.user.js
-// @updateURL https://update.sleazyfork.org/scripts/470138/%E6%90%9C%E7%B4%A2%E9%82%A3%E4%B8%AA.meta.js
+// @downloadURL
+// @updateURL 
 // ==/UserScript==
 /*jshint esversion: 8*/
 (async function () {
